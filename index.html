@@ -39,15 +39,39 @@
             <div class="col-md-3">
                 <form class="bg-dark">
                     <p>Filter Search</p>
-                    <ul class="list-group" class="bg-dark">
-                        <li class="list-group-item" class="bg-dark">
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
-                        </li>
-                        <li class="list-group-item" class="bg-dark">
+                        <ul class="list-group bg-dark" id="table">
+                            <li class="list-group-item bg-dark">
+                                <label for="date"> Filter by Date </label>
+                                    <br>
+                                <input type="text" placeholder="1/10/2010" id="datetime" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="city"> Filter by City </label>
+                                    <br>
+                                <input type="text" placeholder="city" id="city" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="state"> Filter by State </label>
+                                    <br>
+                                <input type="text" placeholder="state" id="state" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="country"> Filter by Country </label>
+                                    <br>
+                                <input type="text" placeholder="country" id="country" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="shape"> Filter by Shape </label>
+                                    <br>
+                                <input type="text" placeholder="shape" id="shape" />
+                            </li>
+                            <!--li class="list-group-item bg-dark">
                             <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
-                        </li>
-                    </ul>
+                            </li-->
+                            <li class="list-group-item bg-dark">
+                            <button id="unfilter-btn" type="button" class="btn btn-dark">Clear Filter</button>
+                            </li>
+                        </ul>
                 </form>
             </div>
             <div class="col-md-9">
